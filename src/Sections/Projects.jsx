@@ -1,4 +1,4 @@
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "../Components/ProjectCard";
 import merchbyl from "../assets/images/merchbyl.png";
 import techExplorer from "../assets/images/techExplorer.png";
 
