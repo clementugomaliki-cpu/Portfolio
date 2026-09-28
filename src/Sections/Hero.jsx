@@ -33,7 +33,7 @@ function Hero() {
 
 
             {/* Right grid */}
-              <div className="hidden lg:flex justify-center">
+              <div className="flex justify-center">
                 {/* <div className="w-80 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
 
                   <div className="flex items-center gap-2 mb-6">

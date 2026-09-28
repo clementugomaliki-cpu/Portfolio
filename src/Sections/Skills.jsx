@@ -16,7 +16,7 @@ function Skills() {
 
   return (
    <section id="skills" className="bg-white py-20 md:py-28">
-      <div className="max-w-8xl mx-auto px-6 flex flex-col gap-4">
+      <div className="mx-auto px-6 flex flex-col gap-4">
 
         <div className="max-w-2xl flex flex-col gap-4">
           <p className="text-sm font-semibold tracking-widest text-slate-500 mb-4">

@@ -27,7 +27,7 @@ function Projects() {
 
   return (
     <section id="projects" className="py-12 md:py-18">
-      <div className="max-w-8xl mx-auto px-6 flex flex-col gap-4">
+      <div className=" mx-auto px-6 flex flex-col gap-4">
 
         <div className="max-w-2xl">
           <p className="text-sm font-semibold tracking-widest text-slate-500 mb-4">
