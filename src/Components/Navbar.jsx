@@ -29,11 +29,11 @@ function Navbar() {
       {isMenuOpen && (
         <nav className="absolute top-full left-0 w-full bg-white border-b border-slate-200 md:hidden">
             <div className="flex flex-col gap-5 px-6 py-6">     
-                <a href="#home" className={navStyles}>Home</a>
-                <a href="#about" className={navStyles}>About</a>
-                <a href="#skills" className={navStyles}>Skills</a>
-                <a href="#projects" className={navStyles}>Projects</a>
-                <a href="#contact" className={navStyles}>Contact</a>
+                <a href="#home" className={navStyles} onClick={()=>setIsMenuOpen(false)}>Home</a>
+                <a href="#about" className={navStyles} onClick={()=>setIsMenuOpen(false)}>About</a>
+                <a href="#skills" className={navStyles} onClick={()=>setIsMenuOpen(false)}>Skills</a>
+                <a href="#projects" className={navStyles} onClick={()=>setIsMenuOpen(false)}>Projects</a>
+                <a href="#contact" className={navStyles} onClick={()=>setIsMenuOpen(false)}>Contact</a>
             </div>
         </nav>
       )}

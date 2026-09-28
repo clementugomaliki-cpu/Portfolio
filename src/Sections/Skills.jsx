@@ -15,10 +15,10 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-12 md:py-18">
-      <div className="max-w-7xl mx-auto px-6 ">
+   <section id="skills" className="bg-white py-20 md:py-28">
+      <div className="max-w-8xl mx-auto px-6 flex flex-col gap-4">
 
-        <div className="max-w-2xl flex flex-col gap-6">
+        <div className="max-w-2xl flex flex-col gap-4">
           <p className="text-sm font-semibold tracking-widest text-slate-500 mb-4">
             SKILLS
           </p>
@@ -34,7 +34,7 @@ function Skills() {
           </p>
         </div>
 
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
+        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillGroups.map((group) => (
             <div key={group.title} className="rounded-2xl border border-slate-200 bg-white p-6">
               <h3 className="text-lg font-semibold">{group.title}</h3>

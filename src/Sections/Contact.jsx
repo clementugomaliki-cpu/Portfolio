@@ -1,7 +1,9 @@
+import { LuGithub, LuLinkedin } from "react-icons/lu";
+
 function Contact() {
   return (
     <section id="contact" className="py-12 md:py-18 ">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col gap-6">
+      <div className="max-w-8xl mx-auto px-6 flex flex-col gap-4">
 
         <div className="max-w-3xl ">
           <p className="text-sm font-semibold tracking-widest text-slate-500 mb-4">
@@ -71,17 +73,13 @@ function Contact() {
             <a href="https://github.com/clementugomaliki-cpu"
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-lg bg-slate-950 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800 transition-colors"
-            >
-                GitHub
-            </a>
+            > <LuGithub/> GitHub </a>
 
             <a
                 href="https://www.linkedin.com/in/clement-ugochukwu-maliki/"
                 target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-100 transition-colors"
-            >
-                LinkedIn
-            </a>
+                className="inline-flex items-center gap-2 rounded-lg bg-slate-950 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800 transition-colors"
+            > <LuLinkedin/> LinkedIn </a>
 
             </div>
         </div>

@@ -1,4 +1,5 @@
 import Button from "../Components/Button";
+import heroImage from "../assets/images/heroImage.png";
 
 function Hero() {
   return (
@@ -6,7 +7,7 @@ function Hero() {
       id="home"
       className="flex items-center"
     >
-      <div className="max-w-7xl mx-auto px-6 py-6 md:py-20 w-full">
+      <div className="max-w-8xl mx-auto px-6 py-6 md:py-20 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           
           <div className="max-w-3xl lg:mx-w-none">
@@ -21,7 +22,7 @@ function Hero() {
 
             <p className="mt-6 text-xl md:text-2xl text-slate-600 leading-relaxed max-w-2xl">
                 I build modern, responsive web applications
-                that are functional, intuitive and user-friendly.
+                that are functional, intuitive and user-friendly, using either/both frontend/backend technologies.
             </p>
 
             <div className="pt-6 md:pt-8 flex flex-col sm:flex-row gap-4">
@@ -33,7 +34,7 @@ function Hero() {
 
             {/* Right grid */}
               <div className="hidden lg:flex justify-center">
-                <div className="w-80 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                {/* <div className="w-80 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
 
                   <div className="flex items-center gap-2 mb-6">
                     <div className="w-3 h-3 rounded-full bg-red-400"></div>
@@ -61,9 +62,10 @@ function Hero() {
                     <p className="text-slate-400">
                       {"}"}
                     </p>
-                  </div>
+                  </div> */}
 
-                </div>
+                {/* </div> */}
+                  <img src={heroImage} alt="Hero Image" className="w-100" />
               </div>
             {/* End of right grid */}
         </div>

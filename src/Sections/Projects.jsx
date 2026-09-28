@@ -1,16 +1,17 @@
 import ProjectCard from "../components/ProjectCard";
 import merchbyl from "../assets/images/merchbyl.png";
+import techExplorer from "../assets/images/techExplorer.png";
 
 function Projects() {
   const projects = [
-    {
-      title: "Responsive Landing Page",
+    {   image: techExplorer,
+      title: "Olotu Square Tech Explorers Bootcamp",
       category: "FRONTEND",
       description:
-        "A modern responsive landing page built with React and Tailwind CSS.",
-      technologies: ["React", "Tailwind CSS", "JavaScript"],
-      github: "#",
-      demo: "#",
+        "A landing page with a registration section for a tech summer bootcamp for kids.",
+      technologies: ["React", "Tailwind CSS"],
+      github: "https://github.com/clementugomaliki-cpu/tech-explorer",
+      demo: "https://tech-explorer-blush.vercel.app/",
     },
     {
         image: merchbyl,
@@ -18,24 +19,15 @@ function Projects() {
       category: "FRONTEND + BACKEND",
       description:
         "A marketplace for educational content for kids, comprising of various user roles - creators, purchasers, and affiliates.",
-      technologies: ["React", "Tailwind CSS", "JavaScript, Node.js", "Express.js", "MongoDB"],
+      technologies: ["React", "Tailwind CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
       github: "https://github.com/clementugomaliki-cpu/MerchbyLucius",
       demo: "https://merchbylucius.com.ng/",
-    },
-    {
-      title: "Clevis Gadgets API",
-      category: "BACKEND",
-      description:
-        "An e-commerce marketplace backend with authentication, products, carts, orders, and REST API endpoints.",
-      technologies: ["Node.js", "Express.js", "MongoDB"],
-      github: "#",
-      demo: "#",
-    },
+    }
   ];
 
   return (
-    <section id="projects" className="py-20 md:py-28">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="projects" className="py-12 md:py-18">
+      <div className="max-w-8xl mx-auto px-6 flex flex-col gap-4">
 
         <div className="max-w-2xl">
           <p className="text-sm font-semibold tracking-widest text-slate-500 mb-4">

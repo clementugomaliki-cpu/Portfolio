@@ -1,11 +1,11 @@
 function About() {
   return (
     <section id="about" className="py-12 md:py-18">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-8xl mx-auto px-6">
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
 
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-4">
                 <p className="text-sm font-semibold tracking-widest text-slate-500 mb-4">
                     ABOUT ME
                 </p>
