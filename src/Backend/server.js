@@ -10,7 +10,10 @@ mongoose.connect(process.env.NO_SRV)
 .catch((err) => console.log(err));
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({origin: [
+    "https://portfolio-na6b.onrender.com",
+    "http://localhost:5174"
+]}));
 
 const schema = new mongoose.Schema({
     name: {type: String, required: true},
