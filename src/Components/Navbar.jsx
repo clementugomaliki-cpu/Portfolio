@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="px-6 py-5 flex items-center justify-between ">
          <div>
           <a href="#home" className="text-xl font-bold tracking-tight">
-            CLEMENT
+            CLEMENT<span className="text-slate-300 font-light ">/DEV</span>
           </a>
         </div>
 
